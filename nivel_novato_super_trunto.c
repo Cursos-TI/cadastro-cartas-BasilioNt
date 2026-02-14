@@ -1,4 +1,9 @@
 #include <stdio.h>
+/*1.Nível Novato
+Desafio: nível novato
+Criando as Cartas do Super Trunfo
+Prof. Sergio Cardoso
+Aluno: Basilio Neto - Número de matrícula: 2026.01.04280-7*/
 
 int main(){
    
