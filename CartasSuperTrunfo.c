@@ -19,8 +19,6 @@ int main(){
     //scanf("%[^\n]%*c", estado2);
     fgets(estado2, 50, stdin);// texto com espaço
     estado2[strcspn(estado2, "\n")]='\0';//tira espaço entre linhas
-    
-    
     printf("Carta 1 - Código da Carta: \n");
     //scanf("%[^\n]%*c", codigo1);
     fgets(codigo1, 50, stdin);// texto com espaço
@@ -29,7 +27,6 @@ int main(){
     //scanf("%[^\n]%*c", codigo2);
     fgets(codigo1, 50, stdin);// texto com espaço
     codigo1[strcspn(codigo1, "\n")]='\0';//tira espaço entre linhas
-
     printf("Carta 1 - Nome da Cidade: \n");
     //scanf("%[^\n]%*c", cidade1);
     fgets(cidade1, 100, stdin);// texto com espaço
@@ -38,24 +35,18 @@ int main(){
     //scanf("%[^\n]%*c", cidade2);
     fgets(cidade1, 100, stdin);// texto com espaço
     cidade1[strcspn(cidade1, "\n")]='\0';//tira espaço entre linhas
-    
-    
     printf("Carta 1 - Quantidade da População: \n");
     scanf("%f", &populacao1);
     printf("Carta 2 - Quantidade da População: \n");
     scanf("%f", &populacao2);
-    
     printf("Carta 1 - Área em Km²: \n");
     scanf("%f", &area1);
-     printf("Carta 2 - Área em Km²: \n");
+    printf("Carta 2 - Área em Km²: \n");
     scanf("%f", &area2);   
-    
     printf("Carta 1 - PIB da ciadade em Bilhões de Reais: \n");
     scanf("%f", &pib1);
     printf("Carta 2 - PIB da ciadade em Bilhões de Reais: \n");
     scanf("%f", &pib2);
-    
-    
     printf("Carta 1 - Quantidade de pontos Turisticos: \n");
     scanf("%d", &pontur1);
     printf("Carta 2 - Quantidade de pontos Turisticos: \n");
