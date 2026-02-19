@@ -75,7 +75,7 @@ int main(){
     
     
     
-    dp1 = populacao1 / area1; //Densidade Populaciona
+        dp1 = populacao1 / area1; //Densidade Populaciona
     calcpibpc1 = pib1 * 1000000000;
     pibpc1 = calcpibpc1 / populacao1; //PIB per Capita
     sp1 = populacao1 + area1 + pib1 + pontur1 + pibpc1 + (1/dp1);//Super Poder
@@ -147,6 +147,7 @@ int main(){
         printf("Super Poder: Carta 1 Venceu (1)\n");
     else
         printf("Super Poder: Carta 2 Venceu (1)\n");
+
 
     return 0;
 
